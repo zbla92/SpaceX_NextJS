@@ -1,0 +1,52 @@
+.card {
+  width: 99%;
+  height: 140px;
+  background-color: #f2f2f2;
+  border-radius: 2px;
+  margin: 2px auto;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_3 {
+  font-size: 24px;
+  font-weight: 200;
+  margin: 12px 32px;
+  span {
+    font-weight: 300;
+    font-size: 28px;
+  }
+}
+.mission_name {
+  font-size: 24px;
+  font-weight: 200;
+  margin: 0 32px;
+}
+.left_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.right_container {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flight_success {
+  width: 300px;
+}
+
+.success_img {
+  height: 21px;
+  width: 21px;
+  margin-left: 8px;
+}
+.scheduled_for {
+  text-align: left;
+}

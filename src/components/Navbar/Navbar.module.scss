@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 1;
+}
+
+.left {
+  width: 20%;
+}
+.right {
+  width: 20%;
+}
+
+.left {
+  .logo {
+    height: 40px;
+  }
+}
+
+.center {
+  a {
+    font-size: 18px;
+    margin: 0 24px;
+  }
+}

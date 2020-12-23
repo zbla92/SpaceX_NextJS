@@ -1,0 +1,47 @@
+.hero {
+  position: relative;
+  margin-bottom: 60px;
+
+  &_image {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(black, 0.6);
+  }
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    h2 {
+      font-size: 58px;
+      font-weight: 300;
+      letter-spacing: 0.25em;
+    }
+    p {
+      position: absolute;
+      bottom: 32px;
+      text-decoration: underline;
+      text-decoration-color: rgba(white, 0.6);
+      transition: 0.2s;
+      &:hover {
+        text-decoration-color: transparent;
+        cursor: pointer;
+      }
+    }
+  }
+}

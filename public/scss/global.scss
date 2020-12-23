@@ -1,0 +1,19 @@
+body {
+  background-color: #fff;
+}
+
+.button_primary {
+  all: unset;
+  min-height: 40px;
+  min-width: 120px;
+  border: 1px solid #353b48;
+  border-radius: 2px;
+  text-align: center;
+  color: #353b48;
+  font-size: 14px;
+  opacity: 0.7;
+  transform: 0.2s;
+  &:hover {
+    opacity: 1;
+  }
+}
